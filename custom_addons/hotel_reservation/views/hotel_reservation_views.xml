@@ -1,0 +1,47 @@
+<!-- views/hotel_reservation_views.xml -->
+<odoo>
+    <record id="view_hotel_reservation_tree" model="ir.ui.view">
+        <field name="name">hotel.reservation.tree</field>
+        <field name="model">hotel.reservation</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="guest_name"/>
+                <field name="room_id"/>
+                <field name="check_in_date"/>
+                <field name="check_out_date"/>
+                <field name="state"/>
+                <field name="total_price"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hotel_reservation_form" model="ir.ui.view">
+        <field name="name">hotel.reservation.form</field>
+        <field name="model">hotel.reservation</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <!-- Buttons for workflow actions -->
+                    <button name="action_confirm" string="Confirm" type="object" states="draft"/>
+                    <button name="action_in_stay" string="In Stay" type="object" states="confirm"/>
+                    <button name="action_check_out" string="Check Out" type="object" states="in_stay"/>
+                    <button name="action_cancel" string="Cancel" type="object" states="draft,confirm,in_stay"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,confirm,in_stay,checked_out,cancel"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name" readonly="1"/>
+                        <field name="guest_name"/>
+                        <field name="room_id"/>
+                        <field name="check_in_date"/>
+                        <field name="check_out_date"/>
+                        <field name="deposit_amount"/>
+                        <field name="total_price" readonly="1"/>
+                        <field name="state" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

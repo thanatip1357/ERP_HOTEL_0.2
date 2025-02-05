@@ -1,0 +1,17 @@
+<odoo>
+    <record id="hotel_room_demo_1" model="hotel.room">
+        <field name="room_number">101</field>
+        <field name="name">Room 101</field>
+        <field name="room_type">single</field>
+        <field name="base_price">100</field>
+    </record>
+
+    <record id="hotel_room_demo_2" model="hotel.room">
+        <field name="room_number">102</field>
+        <field name="name">Room 102</field>
+        <field name="room_type">double</field>
+        <field name="base_price">150</field>
+    </record>
+
+    <!-- Additional records ... -->
+</odoo>

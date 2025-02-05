@@ -1,0 +1,9 @@
+<odoo>
+    <record id="seq_hotel_reservation" model="ir.sequence">
+        <field name="name">Hotel Reservation</field>
+        <field name="code">hotel.reservation</field>
+        <field name="prefix">HRES/</field>
+        <field name="padding">4</field>
+        <field name="number_increment">1</field>
+    </record>
+</odoo>

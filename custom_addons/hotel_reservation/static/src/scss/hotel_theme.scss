@@ -1,0 +1,10 @@
+// Override Odoo's default colors
+$o-brand-odoo: #000000;
+$o-brand-primary: #000000;
+$o-secondary: #ffffff;
+
+// Apply to forms and lists
+.o_form_view {
+    background-color: $o-secondary;
+    color: $o-brand-primary;
+}

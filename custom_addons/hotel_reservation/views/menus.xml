@@ -1,0 +1,32 @@
+<!-- views/menus.xml -->
+<odoo>
+   <!-- 1) Define the Actions first -->
+    <record id="action_hotel_room_tree" model="ir.actions.act_window">
+        <field name="name">Rooms</field>
+        <field name="res_model">hotel.room</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_hotel_reservation_tree" model="ir.actions.act_window">
+        <field name="name">Reservations</field>
+        <field name="res_model">hotel.reservation</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- 2) Then define the Menu Items -->
+    <menuitem id="menu_hotel_management_root" 
+              name="Hotel Management"
+              sequence="10"/>
+
+    <menuitem id="menu_hotel_rooms" 
+              name="Rooms" 
+              parent="menu_hotel_management_root"
+              sequence="20"
+              action="action_hotel_room_tree"/>
+
+    <menuitem id="menu_hotel_reservations" 
+              name="Reservations" 
+              parent="menu_hotel_management_root"
+              sequence="30"
+              action="action_hotel_reservation_tree"/>
+</odoo>

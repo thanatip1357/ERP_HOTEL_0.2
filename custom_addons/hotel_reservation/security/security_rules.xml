@@ -1,0 +1,10 @@
+<!-- security/security_rules.xml -->
+<odoo>
+    <record id="rule_hotel_reservation_own" model="ir.rule">
+        <field name="name">Hotel Reservation: Own</field>
+        <field name="model_id" ref="hotel_reservation.model_hotel_reservation"/>
+        <field name="domain_force">[('create_uid','=',user.id)]</field>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,24 @@
+2025-02-04 11:43:36,817 135156 INFO ? odoo: Odoo version 16.0 
+2025-02-04 11:43:36,817 135156 INFO ? odoo: Using configuration file at C:\Users\LENOVO\Desktop\Work\PROJECT\The_ERP\ERP_HOTEL_0.2\debian\odoo.conf 
+2025-02-04 11:43:36,817 135156 INFO ? odoo: addons paths: ['C:\\Users\\LENOVO\\Desktop\\Work\\PROJECT\\The_ERP\\ERP_HOTEL_0.2\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\custom_addons', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\addons', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\odoo\\addons'] 
+2025-02-04 11:43:36,817 135156 INFO ? odoo: database: odoo16@default:default 
+2025-02-04 11:43:37,177 135156 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-02-04 11:43:37,633 135156 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2025-02-04 11:43:37,796 135156 INFO dbodoo16 odoo.modules.loading: loading 1 modules... 
+2025-02-04 11:43:37,802 135156 INFO dbodoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-02-04 11:43:37,837 135156 INFO dbodoo16 odoo.modules.loading: updating modules list 
+2025-02-04 11:43:37,856 135156 INFO dbodoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-02-04 11:43:44,704 135156 INFO dbodoo16 odoo.modules.loading: loading 110 modules... 
+2025-02-04 11:43:47,606 135156 INFO dbodoo16 odoo.modules.loading: 110 modules loaded in 2.90s, 0 queries (+0 extra) 
+2025-02-04 11:43:48,778 135156 INFO dbodoo16 odoo.modules.loading: Modules loaded. 
+2025-02-04 11:43:48,786 135156 INFO dbodoo16 odoo.modules.registry: Registry loaded in 11.153s 
+2025-02-04 11:43:48,786 135156 INFO dbodoo16 odoo.service.server: Initiating shutdown 
+2025-02-04 11:43:48,786 135156 INFO dbodoo16 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-02-04 11:43:48,787 135156 INFO dbodoo16 odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2025-02-04 11:49:57,546 24292 INFO ? odoo: Odoo version 16.0 
+2025-02-04 11:49:57,547 24292 INFO ? odoo: Using configuration file at C:\Users\LENOVO\Desktop\Work\PROJECT\The_ERP\ERP_HOTEL_0.2\debian\odoo.conf 
+2025-02-04 11:49:57,547 24292 INFO ? odoo: addons paths: ['C:\\Users\\LENOVO\\Desktop\\Work\\PROJECT\\The_ERP\\ERP_HOTEL_0.2\\odoo\\addons', 'c:\\users\\lenovo\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\custom_addons', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\addons', 'c:\\users\\lenovo\\desktop\\work\\project\\the_erp\\erp_hotel_0.2\\odoo\\addons'] 
+2025-02-04 11:49:57,547 24292 INFO ? odoo: database: neondb_owner@ep-steep-lake-a1cxcvy7-pooler.ap-southeast-1.aws.neon.tech:5432 
+2025-02-04 11:49:58,142 24292 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-02-04 11:49:58,337 24292 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2025-02-04 11:49:59,359 24292 INFO ? odoo.modules.loading: init db 
